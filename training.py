@@ -399,7 +399,7 @@ def create_decoder(
     return keras.Model(inputs, outputs, name="mae_decoder")
 
 
- class MaskedAutoencoder(keras.Model):
+class MaskedAutoencoder(keras.Model):
     def __init__(
         self,
         train_augmentation_model,
